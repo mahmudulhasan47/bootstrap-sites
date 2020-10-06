@@ -732,7 +732,7 @@ contact design Section CSS
   resize: none;
   border: none;
   border-bottom:  1px solid #d6d6d6 !important;
-  border-radius: none;
+  border-radius: 0;
   box-shadow: none;
   height: 100%;
 }
