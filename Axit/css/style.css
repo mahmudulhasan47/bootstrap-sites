@@ -744,7 +744,7 @@ textarea::placeholder{
   color: #d6d6d6 !important;
 }
 
-.form-group{
+.contact-section .form-group{
   padding-right: 20px;
 }
 .submit-btn .form-group{
