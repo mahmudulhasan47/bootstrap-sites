@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #313243;
+}
+
+/**********************************
+Header section css
+**********************************/
+header{
+  width: 100%;
+  background: #daac00;
+}
+header .nav-item{
+  text-transform: capitalize;
+}
+
+header .col-md-12{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+header nav{
+  padding-top: 25px !important;
+  padding-bottom: 25px !important
+}
+
+header .nav-link{
+  font-size: 28px;
+  font-weight: 600;
+  color: white !important;
+}
+
+header input{
+  width: 200px !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  font-size: 22px !important;
+  background: #fcc302 !important;
+}
+
+header .navbar-brand{
+  margin-right: 0 !important;
+}
+
+header .input-group{
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.3);
+}
+
+header input:focus{
+  box-shadow: none !important;
+}
+header input::placeholder{
+  color: #fff !important;
+}
+header .input-group-text{
+  border-radius: 0;
+  border: none;
+  background: #00bec9 !important;
+  width: 70px !important;
+  justify-content: center;
+  font-size: 22px;
+  color: #fff !important;
+  transition: 0.5s;
+}
+header nav .nav-item{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+header .input-group-text:hover{
+  background:  #0672ff !important;
+}
+
+/************************************
+Banner section css here
+************************************/
+.banner-section{
+  width: 100%;
+  height: 780px;
+  background: #fcc302;
+}
+
+.banner-section .col-md-7,.banner-section .col-md-5{
+  height: 780px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.banner-section h1{
+  font-size: 65px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.banner-section p{
+  font-size: 28px !important;
+  color: #fff !important;
+  margin-bottom: 45px;
+}
+
+.btn{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  padding: 18px 30px;
+  border: 3px solid #fff;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.btn.banner-cnt-btn{
+  background: #00bec9;
+  border-color: #00bec9;
+  margin-right: 36px;
+}
+
+.banner-section .btn:focus{
+  box-shadow: none;
+}
+
+/******************************
+ video section css here 
+*******************************/
+.video-section h1{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 35px;
+}
+.video-section p{
+  font-size: 27px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+.btn.video-srv-btn{
+  border: 4px solid #fcc302;
+  background-color: hsl(46, 98%, 50%);
+}
+.video-section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.video-body{
+  position: relative;
+}
+
+.video-body .video-img{
+  position: relative;
+  z-index: 2;
+}
+
+.video-body .img-fluid{
+  position: absolute;
+  width: 100% !important;
+}
+
+.video-overlay{
+  background: rgba(252, 195, 2,0.5);
+  position: relative;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-overlay a{
+  width: 65px;
+  height: 65px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.video-body i{
+  color: #daac00;
+  font-size: 30px;
+}
+
+.video-shadow{
+  width: 200px;
+  height: 200px;
+  background: #fcc302;
+  position: absolute;
+  left: -30px;
+  top: 291px;
+  z-index: 1;
+}
+/*****************************
+Care Section CSS
+*****************************/
+.care-section,.pricing-section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #fcc302;
+}
+
+.care-section .care-desc h1,.pricing-section .pricing-desc h1{
+  font-size: 74px;
+  font-weight: 700;
+  color: #fff;
+}
+.care-section .care-desc p,.pricing-section .pricing-desc p{
+  font-size: 32px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.care-row-1,.pricing-row-1{
+  margin-bottom: 50px;
+}
+
+.care-section .care-text h1{
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 35px;
+}
+
+.care-section .care-text p{
+  font-size: 24px;
+  color: #fff;
+  line-height: 1.25;
+}
+
+.care-section .col-md-4:nth-child(1),.pricing-section .col-md-4:nth-child(1){
+  padding-left: 0;
+  padding-right: 46px;
+}
+.care-section .col-md-4:nth-child(2),.pricing-section .col-md-4:nth-child(2){
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.care-section .col-md-4:nth-child(3),.pricing-section .col-md-4:nth-child(3){
+  padding-left: 46px;
+  padding-right: 0;
+}
+
+/* video-section1 css */
+.video-section1 .video-shadow{
+  left: 316px !important;
+}
+
+.videon-section1- .video-body i{
+  transform-origin: center;
+  transform: rotate(180deg);
+}
+
+/* Pricing section css */
+.pricing-section .pricing-text p{
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 35px;
+}
+
+.pricing-section .pricing-text del{
+  margin-right: 25px;
+}
+
+.btn.pricing-btn{
+  padding: 12px 40px;
+  border-radius: 35px;
+  background: #00bec9;
+  border-color: #00bec9;
+  box-shadow: none;
+}
+
+/****************************
+Veterinarian section CSS
+****************************/
+.veterinarian-section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: #fff;
+}
+
+.veterinarian-section .veterinarian-desc h1{
+  font-size: 73px;
+  font-weight: 700;
+  color: #313243;
+  margin-bottom: 35px;
+}
+
+.veterinarian-section .veterinarian-desc p{
+  font-size: 31px;
+  font-weight: 500;
+}
+
+.veterinarian-section .pricing-row-1{
+  margin-bottom: 60px;
+}
+
+.veterinarian-section h3{
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.veterinarian-section .veterinarian-text p{
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.veterinarian-section .navbar{
+  padding: 0 !important;
+}
+
+.veterinarian-section .nav-item{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #daac00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 8px;
+}
+.veterinarian-section .nav-link{
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+}
+
+.veterinarian-section .col-md-4:nth-child(1){
+  padding-left: 0px;
+  padding-right: 30px;
+}
+.veterinarian-section .col-md-4:nth-child(2){
+  padding-left: 13px;
+  padding-right: 15px;
+}
+.veterinarian-section .col-md-4:nth-child(3){
+  padding-left: 30px;
+  padding-right: 0px;
+}
+
+/*********************************
+counter section css 
+********************************/
+.counter-section{
+  background: url(../images/back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding:100px 0px;
+}
+
+.counter-section .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(252, 194, 3,0.9);
+}
+.counter-section .counter-icon{
+  margin-bottom: 50px;
+}
+.counter-section h3{
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.counter-section p{
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* post section css here */
+
+.post-section{
+  padding: 100px 0px;
+}
+.post-section .card{
+  padding: 0;
+  border: none;
+}
+.post-section .card-header{
+  padding: 0;
+  border: none;
+}
+
+.post-section .card-body{
+  border: 2px solid rgb(186, 184, 184);
+  border-top: none;
+  box-shadow: 0px 15px 12px 10px rgba(0,0,0,0.1);
+}
+.post-section .card-body h3{
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+.post-section .card-body .date{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #00bec9;
+  margin-bottom: 20px;
+}
+
+.post-section .card-body .desc{
+  font-size: 16px;
+}
+
+.post-section .card-body .read-more{
+  color: #00bec9;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.post-section .col-md-4:nth-child(1){
+  padding-left: 0;
+  padding-right: 30px;
+}
+.post-section .col-md-4:nth-child(2){
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.post-section .col-md-4:nth-child(3){
+  padding-left: 30px;
+  padding-right: 0px;
+}
+
+/****************************
+footer section css
+****************************/
+footer{
+  background: #343434;
+  padding: 100px 0px;
+}
+
+footer h2, footer li, footer a{
+  color: #fff;
+}
+
+footer h2{
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+footer ul{
+  list-style: none;
+}
+footer ul li{
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+footer .form{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+footer .form-control{
+  border: none;
+  border-radius: 0;
+  background: #daac00;
+  height: 100px;
+  font-size: 25px;
+  padding-left: 25px;
+}
+footer .input-group-text{
+  width: 140px;
+  justify-content: center;
+  border: none;
+  background: #00bec9;
+  color: #fff;
+  border-radius: 0;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+footer .nav-item{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+footer .nav-link{
+  color: #343434;
+  font-size: 32px;
+  transition: 0.5s;
+}
+
+footer .nav-item:hover{
+  background: #daac00;
+}
+
+footer .nav-item:hover .nav-link{
+  color: #fff;
+}
